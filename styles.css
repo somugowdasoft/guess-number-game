@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: green;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: gray;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid orange;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 5px;
+}
+
+button:hover {
+    background-color: #FF9955;
+}
+
+.hidden {
+    display: none;
+}
